@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(235, 231, 231) ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center  ;
+    overflow: hidden;
+
+}
+.backward{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.parent-phone{
+    /* width: 100px;
+     height: 100px; */
+     animation: dropAndRotate 5s ease-in-out forwards;
+  animation: dropBounceAndRotate 5s ease-in-out forwards;
+
+}
+.phone{
+     box-shadow: -10px 8px 20px rgba(10, 8, 8, 8);
+     display: grid;  
+     grid-template-columns: 60px 60px 60px ;
+     grid-template-rows:repeat(14 ,30px);
+     gap: 5px; 
+     width: 185px;
+     height: 470px;
+     border: 6px  solid; 
+     margin: auto;
+     margin-top: 10px;
+     border-radius: 30px;
+     justify-items: center;
+     text-align: center;
+     background-color: rgb(41, 39, 39);
+     color: white;
+     border-color: rgb(98, 97, 97);
+     padding: 20px;
+     padding-top: 5px;
+     padding-left: 5px;
+     transition: transform 10s ease;
+     transition-duration: 1s;
+     transition-delay: 0.5s;
+     transition-timing-function: linear;
+     animation-name: anime;
+     animation-duration: 5s;
+     
+
+
+}
+.A{
+  grid-area: 14/3/15/4;
+  border: 1px  solid;
+  width: 65px;
+  margin-left: 10px;
+  border-radius: 0px 0px 20px 0px;
+  margin-bottom: 2px;
+  height: 4.7vh;
+  justify-items: center;
+  align-items: center;
+  border-color: black;
+  font-size: 20px;
+}
+
+.B{
+    grid-area: 14/2/15/3;  
+    border: 1px  solid;
+    width: 65px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    height: 4.7vh;
+    border-color: black;
+    font-size: 20px;
+}
+
+.C{
+    grid-area: 14/1/15/2;
+    border: 1px  solid;
+    width: 65px;
+    margin-left: 10px;
+    border-radius: 0px 0px 0px 20px;
+    margin-bottom: 2px;
+    height: 4.7vh;
+    border-color: black;
+    font-size: 20px;
+}
+
+.D{
+    grid-area: 13/3/14/4; 
+     border: 1px  solid;
+    width: 65px;
+    margin-left: 10px;
+    height: 5.5vh;
+    border-color: black;
+    font-size: 20px;
+}
+
+.E{
+    grid-area:13/2/14/3 ;
+    border: 1px  solid;
+    width: 65px;
+    margin-left: 10px;
+    height: 5.5vh;
+    border-color: black;
+    font-size: 20px;
+}
+    
+
+.F{
+   grid-area: 13/1/14/2;
+   border: 1px  solid;
+   width: 65px;
+   margin-left: 10px;
+   height: 5.5vh;
+   border-color: black;
+   font-size: 20px;
+}
+
+.G{
+    grid-area: 12/3/13/4;
+    border: 1px  solid;
+    width: 65px;
+    margin-left: 10px;
+    height: 5.5vh;
+    border-color: black;
+    font-size: 20px;
+}
+
+.H{
+    grid-area: 12/2/13/3;
+    border: 1px  solid;
+    width: 65px;
+    margin-left: 10px;
+    height: 5.5vh;
+    border-color: black;
+    font-size: 20px;
+    
+}
+
+.I{
+    grid-area: 12/1/13/2;
+    border: 1px  solid;
+    border-right: 1.4px solid;
+    width: 65.4px;
+    margin-left: 10px;
+    margin-right: 1px;
+    height: 5.5vh;
+    border-color: black;
+    font-size: 20px;
+}
+    
+
+.J{
+    grid-area: 11/3/13/4;
+    border: 1px  solid;
+    width: 65px;
+    height: 5vh;
+    margin-left: 10px;
+    height: 5.5vh;
+    font-size: 20px;
+    border-color: black;
+}
+
+.K{
+    grid-area: 11/2/12/3;
+    border: 1px  solid;
+    width: 65.4px;
+    margin-left: 10px;
+    height: 5.5vh;
+    border-color: black;
+    font-size: 20px;
+}
+
+.L{
+    grid-area:11/1/12/2 ;
+    border: 1px  solid;
+    width: 64.8px;
+    margin-left: 10px;
+    height: 5.5vh;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    border-right: 1px  solid;
+    border-color: black;
+    font-size: 20px;
+}
+.M{
+    grid-area: 10/3/11/4;
+    border: 1px  solid;
+    width: 65px;
+    height: 5vh;
+    margin-left: 10px;
+    height: 5.5vh;
+    border-left: none;
+    border-color: black;
+    font-size: 20px;
+    
+}
+.notcall{
+    transform: rotate(130deg);
+}
+.N{
+    grid-area: 10/2/11/3;
+    border: 1px  solid;
+    width: 65px;
+    height: 5vh;
+    margin-left: 11px;
+    margin-top: 1px ;
+    height: 5.5vh;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-color: black;
+    font-size: 20px;
+    
+  
+}
+.O{
+    grid-area: 10/1/11/2;
+    border: 1px  solid;
+    width: 65px;
+    height: 5vh;
+    margin-left: 10px;
+    height: 5.5vh;
+    border-right: none;
+    border-color: black;
+    font-size: 20px;
+    
+}
+.P{
+    grid-area: 9/3/10/4;
+    border: 1px  solid;
+    width: 65.4px;
+    height: 5.5vh;
+    margin-left: 10px;
+    height: 5.5vh;
+    border-left: none;
+    border-color: black;
+    font-size: 20px;
+}
+.Q{
+    grid-area: 9/2/10/3;
+    border: 7px solid;
+    width: 48px;
+    background-image: linear-gradient(rgb(59, 57, 57));
+    margin-left: 10px;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 8px;
+    border-color: rgb(152, 149, 149);
+    font-size: 20px;
+ }
+.R {
+    grid-area: 9/1/10/2;
+    border: 1px  solid;
+    width: 65.4px;
+    height: 5vh;
+    margin-left: 10px;
+    height: 5.5vh;
+    border-right: none;
+    border-color: black;
+    font-size: 20px;
+}
+.screen{
+    border: 1px solid;
+    width: 195px;
+    height: 47vh;
+    margin-top: 2px;
+    margin-left: 160px;
+    margin-right: 20px;
+    border-radius: 20px 20px 0px 0px;
+    color: black ;
+    background-color:black;  
+
+
+    
+}
+.mscreen{
+    border: 1px  solid;
+    border-color: black;
+    width: 160px;
+    height:36vh ;
+    margin-top: 35px;
+    margin-left: 13px;
+    background-color: rgb(21, 21, 21);
+  
+}
+p{
+    font-size: 10px;
+}
+.hole{
+    border: 1px  solid;
+    width: 60px;
+    height: 7px;
+    margin-top: 15px;
+    margin-right: 120px;
+    border-radius: 10px;
+    border-color: gray;
+    background-color: rgb(49, 47, 47);
+}
+.tecno{
+    margin-top: 220px;
+    margin-left: 135px;
+    font-family: ;
+    font-size: 16px;
+    font-weight:bolder ;
+    color: gray;
+}
+img{
+    height: 35vh;
+    width: 155px;
+    margin-top:2px  ;
+    margin-left: 13px;
+    /* margin-bottom: 20px; */
+   border-color: rgb(21, 21, 21);
+}
+span{
+    font-size: 10px;
+}
+.time{
+    font-size: 30px;
+    margin-top: 50px;
+   margin-right: 115px;
+}
+.span1{
+    font-size: 15px;
+    
+
+    
+}
+.unlock{
+    margin-top: 160px;
+    margin-right: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.battery{
+    position: absolute;
+    padding-right: 30px;
+    margin-top: 35px;
+    margin-left: 170px;
+}
+.network{
+    position: absolute;
+    margin-top: 35px;
+    margin-right: 115px;
+}
+.network1{
+    position: absolute;
+    padding-right: 40px;
+    margin-right:40px ;
+    margin-top: 34px;
+}
+@keyframes dropAndRotate {
+            0% {
+                transform: translateY(-100vh) rotate(0deg);
+                opacity: 0;
+            }
+            20% {
+                transform: translateY(-210vh) rotate(180deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(0) rotate(360deg);
+                opacity: 1;
+            }
+        }
+
+        @keyframes dropBounceAndRotate {
+            0% {
+                transform: translateY(-100vh) rotate(0deg);
+                opacity: 1;
+            }
+            20% {
+                transform: translateY(0) rotate(72deg); /* 20% of 360deg for smooth rotation
+                opacity: 1; */
+            }
+            25% {
+                transform: translateY(-15px) rotate(90deg); /* Bounce up */
+             }
+            30% {
+                transform: translateY(0) rotate(108deg); /*/Back down*/
+            }
+            35% {
+                transform: translateY(-8px) rotate(126deg); /* Smaller bounce */
+            }
+            40% {
+                transform: translateY(0) rotate(144deg); /*Settle */
+            } 
+            100% {
+                transform: translateY(0) rotate(360deg); /*Complete rotation*/
+                opacity: 1;
+            }  
+        }
