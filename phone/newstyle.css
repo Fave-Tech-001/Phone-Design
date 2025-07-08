@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.phone-frame{
+    margin: 20px auto;
+    height: 550px;
+    width: 280px;
+    border: 1px solid;
+    border-radius: 20px;
+}
